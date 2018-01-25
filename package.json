@@ -1,0 +1,30 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "project description",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build",
+    "styles": "gulp styles",
+    "scripts": "gulp scripts",
+    "dev": "gulp default",
+    "sync": "gulp sync",
+    "guide": "gulp styleguide"   
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-jsmin": "^0.1.5",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-notify": "^3.0.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-sass": "^3.0.0",
+    "mdcss": "^1.5.2"
+  }
+}
